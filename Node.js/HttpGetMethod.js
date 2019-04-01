@@ -27,7 +27,7 @@ exports.handler = function(event, context, callback){
       output += chunk;
     });
     response.on('end', function(){
-      console.log("HTTP GET Response: " + response);
+      console.log("HTTP GET Response: " + output);
     });
   });
   
