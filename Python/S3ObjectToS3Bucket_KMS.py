@@ -8,7 +8,7 @@ import ntpath;
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-def S3ToS3WithKMS(event, context):
+def handleEvent(event, context):
 	#Get Source Information
 	sourceBucketName = event['Records'][0]['s3']['bucket']['name']
     	sourceObjectKey = event['Records'][0]['s3']['object']['key']
