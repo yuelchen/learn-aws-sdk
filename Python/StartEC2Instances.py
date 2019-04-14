@@ -12,7 +12,7 @@ logger.setLevel(logging.INFO)
 awsRegion = ''
 instances = ['']
 
-def LambdaStartEC2Instances(event, context):
+def startEC2Instances(event, context):
     ec2 = boto3.client('ec2', region_name=awsRegion)
 	
     logger.info("Attempting to start all instances: str(instances))
