@@ -13,7 +13,7 @@ logger.setLevel(logging.INFO)
 sqsName = ''
 msgGroupId = '' 
 
-def S3LambdaToFifoSQS(event, context):
+def handleEvent(event, context):
 	eventBucket = event['Records'][0]['s3']['bucket']['name']
 	eventKey = event['Records'][0]['s3']['object']['key']
 
