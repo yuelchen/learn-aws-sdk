@@ -12,7 +12,7 @@ logger.setLevel(logging.INFO)
 awsRegion = ''
 instances = ['']
 
-def LambdaStopEC2Instances(event, context):
+def stopEC2Instnaces(event, context):
     ec2 = boto3.client('ec2', region_name=awsRegion)
 	
     logger.info("Attempting to stop all instances: str(instances))
