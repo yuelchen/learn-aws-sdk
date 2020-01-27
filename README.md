@@ -15,7 +15,7 @@ _The programming languages marked with an asterisk (*) are used within this repo
 * Python*
 * Ruby
 
-### Getting AWS SDK
+### Getting the AWS SDK
 Go to [AWS Amazon](https://aws.amazon.com/tools/) and get the SDK for your IDE (Integrated Development Environment) - there are many free ones, popularly [Eclipse](https://www.eclipse.org/ide/) and [IntelliJ](https://www.jetbrains.com/idea/) for Java development. 
 
 Personally I prefer Eclipse since it's the IDE I started with and IntelliJ didn't exist at the time, but if you are new to software development or using Java IDE, I would recommend going with the latter mentioned option - if you choose to go with IntelliJ, the Community version is the only **FREE** option. 
