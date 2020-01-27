@@ -9,8 +9,8 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # initialize function variables
-awsRegion = ''
-instances = ['']
+awsRegion = ''   #string value of aws region (US East - us-east-1)
+instances = [''] #array of instance id's
 
 def startEC2Instances(event, context):
     ec2 = boto3.client('ec2', region_name=awsRegion)
