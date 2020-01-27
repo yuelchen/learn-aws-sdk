@@ -88,7 +88,6 @@ function main() {
   else
     #exit due to missing parameters
     logError "Exiting script, either bucket name or object key is missing"
-    logInfo "Bucket Name (Param1), Object Key (Param2) and Log Filename Location (Param3)"
     exit 1
   fi
 }
