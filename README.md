@@ -1,8 +1,6 @@
 # aws-development 
 @Description: Code repository for source code written specifically for running on AWS or personal projects heavily using AWS SDK.
 
-@Author: Yue Chen
-
 @Last Updated: January 27th, 2020
 
 ### AWS SKD Supported Languages (as of Jan 27th 2020)
