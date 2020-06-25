@@ -130,7 +130,7 @@ do
             ;;
         h)  printHelp
             ;;
-        :)  logError "No argument given for option -${OPTARG}"
+        :)  logError "No argument given for option -b ${OPTARG}"
             ;;
         *)  logError "Invalid parameter passed, you may specify -b (s3 bucket prefix value) or -h (prints help menu)"
             ;;
