@@ -3,7 +3,7 @@
 # @author: yuelchen
 # @description: bash script to 
 #               (1) append or overwrite crontab expression
-                (2) restart service crontab
+#               (2) restart service crontab
 # @date: 06/02/2020
 # @resource(s): [Crontab Man Page - crontab expressions](https://man7.org/linux/man-pages/man5/crontab.5.html)
 
@@ -123,7 +123,7 @@ do
             ;;
         h)  printHelp
             ;;
-        :)  logError "No argument given for option -${OPTARG}"
+        :)  logError "No argument given for option -b ${OPTARG}"
             ;;
         *)  logError "Invalid parameter passed, you may specify -b (s3 bucket prefix value), -o option for overwrite, -u option for update, or -h (prints help menu)"
             ;;
