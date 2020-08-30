@@ -1,6 +1,8 @@
 package com.yuelchen.glue;
 
+import com.amazonaws.AmazonServiceException;
 import com.amazonaws.ResponseMetadata;
+import com.amazonaws.SdkClientException;
 import com.amazonaws.services.glue.AWSGlue;
 import com.amazonaws.services.glue.AWSGlueClientBuilder;
 import com.amazonaws.services.glue.model.*;
@@ -16,7 +18,7 @@ import java.util.List;
 public class GlueApiClient {
 	
 	/**
-	 * The Amazon Glue Client for making API requests. 
+	 * The default Amazon Glue Client for making API requests. 
 	 */
     public static AWSGlue amazonGlueClient = AWSGlueClientBuilder.defaultClient();
 
@@ -35,10 +37,12 @@ public class GlueApiClient {
      * 
      * @return							the response metadata object for given creation request. 
      * 
-     * @throws AWSGlueException			thrown when there is an issue creating databases in Glue.
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static ResponseMetadata createDatabase(String accountId, String databaseName, 
-    		String databaseDescription) throws AWSGlueException {
+    		String databaseDescription) throws AmazonServiceException, SdkClientException {
     	
     	DatabaseInput databaseInput = new DatabaseInput();
     	databaseInput.setName(databaseName);
@@ -67,10 +71,12 @@ public class GlueApiClient {
      * 
      * @return							the response metadata object for given creation request. 
      * 
-     * @throws AWSGlueException			thrown when there is an issue creating table in Glue. 
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static ResponseMetadata createTable(String accountId, String databaseName, 
-    		String tableName) throws AWSGlueException {
+    		String tableName) throws AmazonServiceException, SdkClientException {
     	
     	TableInput tableInput = new TableInput();
     	tableInput.setName(tableName);
@@ -93,10 +99,12 @@ public class GlueApiClient {
      * 
      * @return							a list of Glue Database objects.
      * 
-     * @throws AWSGlueException			thrown when there is an issue retrieving databases from Glue.
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static List<Database> getDatabasesList(String accountId) 
-    		throws AWSGlueException {
+    		throws AmazonServiceException, SdkClientException {
     	
         GetDatabasesRequest getDatabasesRequest = new GetDatabasesRequest();
         getDatabasesRequest.setCatalogId(accountId);
@@ -113,12 +121,14 @@ public class GlueApiClient {
      * @param accountId					the AWS account Id. 
      * @param databaseName				the database name in Glue. 
      * 
-     * @return							a Glue Database object.
+     * @return							a Glue Database object. 
      * 
-     * @throws AWSGlueException			thrown when there is an issue retrieving database from Glue.
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static Database getDatabase(String accountId, String databaseName) 
-    		throws AWSGlueException {
+    		throws AmazonServiceException, SdkClientException {
     	
         GetDatabaseRequest getDatabaseRequest = new GetDatabaseRequest();
         getDatabaseRequest.setCatalogId(accountId);
@@ -138,10 +148,12 @@ public class GlueApiClient {
      * 
      * @return							a list of Glue Table objects.
      * 
-     * @throws AWSGlueException			thrown when there is an issue retrieving list of tables from Glue. 
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static List<Table> getTablesList(String accountId, String databaseName) 
-    		throws AWSGlueException {
+    		throws AmazonServiceException, SdkClientException {
     	
         GetTablesRequest getTablesRequest = new GetTablesRequest();
         getTablesRequest.setCatalogId(accountId);
@@ -162,10 +174,12 @@ public class GlueApiClient {
      * 
      * @return							a Glue Table object. 
      * 
-     * @throws AWSGlueException			thrown when there is an issue retrieving table from Glue. 
+     * @throws AmazonServiceException	thrown when call was successfully sent but Glue could not process
+     * 									the requested action.
+     * @throws SdkClientException		thrown when call couldn't be reached or wasn't unknown to Glue. 
      */
     public static Table getTablesList(String accountId, String databaseName, String tableName) 
-    		throws AWSGlueException {
+    		throws AmazonServiceException, SdkClientException {
     	
         GetTableRequest getTableRequest = new GetTableRequest();
         getTableRequest.setCatalogId(accountId);
