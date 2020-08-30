@@ -3,7 +3,7 @@ package com.yuelchen.main;
 import java.util.List;
 import com.amazonaws.services.glue.model.Database;
 import com.amazonaws.services.glue.model.Table;
-import com.example.glue.GlueApiClient;
+import com.yuelchen.glue.GlueApiClient;
 
 /**
  * 

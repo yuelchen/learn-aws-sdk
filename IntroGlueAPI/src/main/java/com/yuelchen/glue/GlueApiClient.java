@@ -1,4 +1,4 @@
-package com.example.glue;
+package com.yuelchen.glue;
 
 import com.amazonaws.ResponseMetadata;
 import com.amazonaws.services.glue.AWSGlue;
