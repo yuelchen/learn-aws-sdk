@@ -25,6 +25,10 @@ public class GlueApiClient {
     /**
      * Returns the response metadata for given database creation request. 
      * 
+     * Visit amazon documentation for DatabaseInput to explore additional information to be 
+     * specified for when creating database.
+     * https://docs.aws.amazon.com/glue/latest/webapi/API_DatabaseInput.html
+     * 
      * @param accountId					the AWS account Id. 
      * @param databaseName				the name of the database to be created.
      * @param databaseDescription		the description of the database to be created - optional field.
@@ -52,6 +56,10 @@ public class GlueApiClient {
     
     /**
      * Returns the response metadata for given table creation request. 
+     * 
+     * Visit amazon documentation for TableInput to explore additional information to be 
+     * specified for when creating table. 
+     * https://docs.aws.amazon.com/glue/latest/webapi/API_TableInput.html
      * 
      * @param accountId					the AWS account Id. 
      * @param databaseName				the database name for which table will be created under. 
