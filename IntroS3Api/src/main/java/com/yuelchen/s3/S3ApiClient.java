@@ -36,7 +36,7 @@ import com.amazonaws.services.s3.model.inventory.ServerSideEncryptionKMS;
 import com.amazonaws.util.IOUtils;
 
 /**
- * Amazon S3 API client handler for performing Glue operations. 
+ * Amazon S3 API client handler for performing S3 operations. 
  * 
  * @author 	yuelchen
  * @version	1.0.0
