@@ -3,7 +3,7 @@ This repository is for storing a collection of sources for the different languag
 
 ### Amazon AWS SDK Supported Languages (as of August 30th 2020)
 _The programming languages marked with a speech ballon (💬) are used within this repository._
-* 💬 Java
+* 💬 [Java](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-java-sdk/src/main/java/com/yuelchen)
 * 💬 Python
 * 💬 Node.js
 * 💭 C++
