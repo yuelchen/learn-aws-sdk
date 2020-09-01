@@ -5,10 +5,9 @@ This repository is for storing a collection of sources for the different languag
 _The programming languages marked with a speech ballon (💬) are used within this repository._
 * 💬 [Java](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-java-sdk/src/main/java/com/yuelchen)
 * 💬 Python
-* 💬 Node.js
+* 💬 Node.js | Javascript
 * 💭 C++
 * 💭 Go
-* 💭 Javascript
 * 💭 .NET
 * 💭 PHP
 * 💭 Ruby
