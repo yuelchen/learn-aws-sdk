@@ -1,9 +1,7 @@
-# aws-development 
-@Description: Code repository for source code written specifically for running on AWS or personal projects heavily using AWS SDK.
+# explore-aws-sdk-languages
+This repository is for storing a collection of sources for the different languages supported by Amazon AWS SDK for developers. 
 
-@Last Updated: January 27th, 2020
-
-### AWS SKD Supported Languages (as of Jan 27th 2020)
+### AWS SKD Languages (as of Jan 27th 2020)
 _The programming languages marked with an asterisk (*) are used within this repository._
 * C++
 * Go
