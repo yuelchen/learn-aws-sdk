@@ -23,6 +23,7 @@ For IDE's on the other AWS supported programming languages, Eclipse also support
 _The directory structure of this repository will be broken by AWS services. Some projects or source code may use multiple services, in which case, they will be placed under the AWS service they interact most. For example, if we have an S3 Event Trigger to execture an AWS Lambda Function which executes our code for adding a new step to EMR, this project (or source code) will be placed under EMR. Not S3 since that is part of the 'infrastructure' and not Lambda as it's only serving as the runtime._
 * S3
 * SQS
+* SNS
 * EC2
 * EMR
 * Lambda
