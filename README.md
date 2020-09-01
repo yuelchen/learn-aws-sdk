@@ -1,4 +1,4 @@
-# explore-aws-sdk-languages
+# aws-sdk-languages
 This repository is for storing a collection of sources for the different languages supported by Amazon AWS SDK for developers. 
 
 ### 💎 Amazon AWS SDK Supported Languages (as of August 30th 2020)
