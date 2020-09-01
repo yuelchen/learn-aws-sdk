@@ -1,11 +1,11 @@
 # explore-aws-sdk-languages
 This repository is for storing a collection of sources for the different languages supported by Amazon AWS SDK for developers. 
 
-### Amazon AWS SDK Supported Languages (as of August 30th 2020)
+### 💎 Amazon AWS SDK Supported Languages (as of August 30th 2020)
 _The programming languages marked with a speech ballon (💬) are used within this repository._
 * 💬 [Java](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-java-sdk/src/main/java/com/yuelchen)
-* 💬 Python
-* 💬 Node.js | Javascript
+* 💬 [Python](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-python-sdk)
+* 💬 [Node.js | Javascript](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-js-sdk)
 * 💭 C++
 * 💭 Go
 * 💭 .NET
@@ -19,7 +19,7 @@ Personally I prefer Eclipse since it's the IDE I started with and IntelliJ didn'
 
 For IDE's on the other AWS supported programming languages, Eclipse also supports a number of them but but since cannot say from experience, a quick [google](https://www.google.com/) search may generate better recommendations.
 
-### 📂 Directory Structure (unordered)
+### 📂 Sub-directory Structure for Languages (unordered)
 _The directory structure of this repository will be broken by AWS services. Some projects or source code may use multiple services, in which case, they will be placed under the AWS service they interact most. For example, if we have an S3 Event Trigger to execture an AWS Lambda Function which executes our code for adding a new step to EMR, this project (or source code) will be placed under EMR. Not S3 since that is part of the 'infrastructure' and not Lambda as it's only serving as the runtime._
 * S3
 * SQS
