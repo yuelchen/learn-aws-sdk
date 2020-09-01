@@ -24,6 +24,13 @@ public class GlueApiClient {
 
     //====================================================================================================
     
+    /** 
+     * Private constructor.
+     */
+    private GlueApiClient() {}
+    
+    //====================================================================================================
+    
     /**
      * Returns the response metadata for given database creation request. 
      * 

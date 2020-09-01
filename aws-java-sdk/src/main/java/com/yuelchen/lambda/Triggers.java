@@ -13,6 +13,13 @@ import com.amazonaws.services.lambda.runtime.events.ScheduledEvent;
  * @since 	2019-09-01
  */
 public class Triggers {
+    
+    /** 
+     * Private constructor.
+     */
+    private Triggers() {}
+    
+    //====================================================================================================
 	
 	/**
 	 * S3 Event Handler; 

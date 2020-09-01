@@ -15,6 +15,5 @@ public class UsingSNSApiClient {
 	 */
 	public static void main(String[] args) {
 		
-		
 	}
 }

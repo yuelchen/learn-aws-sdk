@@ -31,6 +31,13 @@ public class SQSApiClient {
 	private static AmazonSQS amazonSQSClient = AmazonSQSClientBuilder.defaultClient();
 	
 	//====================================================================================================
+    
+    /** 
+     * Private constructor.
+     */
+    private SQSApiClient() {}
+    
+    //====================================================================================================
 	
 	/**
 	 * Returns the queue url for the given queue name. 
