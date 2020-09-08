@@ -2,7 +2,7 @@
 This repository is for storing a collection of sources for the different languages supported by Amazon AWS SDK for developers. 
 
 ### 👋 Hello 👋
-If you found this work to be helpful, consider supporting me by buying me a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
+If you found this work to be helpful and would like support me, please consider buying a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
 
 ---
 ### 💎 Amazon AWS SDK Supported Languages (as of August 30th 2020)
