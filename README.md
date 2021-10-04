@@ -1,15 +1,12 @@
 # aws-sdk-languages
-This repository is for storing a collection of sources for the different languages supported by Amazon AWS SDK for developers. 
-
-### 👋 Hello 👋
-If you found this work to be helpful and would like support me, please consider buying a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
+A repository for storing code examples and projects using the AWS SDK.
 
 ---
 ### 💎 Amazon AWS SDK Supported Languages (as of August 30th 2020)
 _The programming languages marked with a speech ballon (💬) are used within this repository._
-* 💬 [Java](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-java-sdk/src/main/java/com/yuelchen)
-* 💬 [Python](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-python-sdk)
-* 💬 [Node.js | Javascript](https://github.com/yuelchen/explore-aws-sdk-languages/tree/master/aws-js-sdk)
+* 💬 Java
+* 💬 Python
+* 💬 Node.js | Javascript
 * 💭 C++
 * 💭 Go
 * 💭 .NET
