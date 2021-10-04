@@ -1,0 +1,4 @@
+com\ylc\main\S3ToS3Lambda.class
+com\aws\handler\S3ClientHandler.class
+com\ylc\log\AppLog.class
+com\aws\handler\S3EventHandler.class
