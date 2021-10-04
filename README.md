@@ -1,4 +1,4 @@
-# aws-sdk-languages
+# starting-aws-sdk
 A repository for storing code examples and projects using the AWS SDK.
 
 ---
