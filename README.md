@@ -1,4 +1,4 @@
-# starting-aws-sdk
+# learn-aws-sdk
 A repository for storing code examples and projects using the AWS SDK.
 
 ---
